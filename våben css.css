@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+a{
+	text-decoration: none;
+}
+
+
+
+.background {
+	position: fixed; 
+	top: -100px; 
+	left: auto;
+	left: 50%;
+    transform: translate(-50%, 0);
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -100;
+}
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.fullscreenMenu{
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	padding-left: 100px;
+	padding-right: 100px;
+	justify-content: center;
+	min-height: 350px;
+	
+}
+.fullscreenMenu a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	
+}
+.fullscreenMenu a div{
+	margin-bottom: auto;
+	margin-top: 128px;
+}
+
+.buttonH{
+	background: rgb(8, 8, 8);
+	opacity: 100%;
+	padding: 16px;
+	min-width: 128px;
+	text-align: center;
+	color: rgb(252, 252, 252);
+	text-decoration: black;
+	border: 2px rgb(66, 63, 63);
+	
+
+}
+
+.footerMenu1{
+
+	height: 100px;
+	padding: 50px;
+	padding-top: 300px;
+	padding-left: 400px;
+	max-width: 1900px;
+	min-width: 75px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.buttonM{
+	background: rgb(0, 0, 0);
+	
+	padding: 16px;
+	min-width: 75px;
+	min-height: 20px;
+	text-align: center;
+	color: rgb(252, 252, 252);
+	
+
+
+
+
+}
+.footerMenu2{
+
+	height: 300px;
+	padding: 30px;
+	padding-right: 100px;
+	padding-top: 20px;
+	max-width: 1900px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+.buttonT{
+	background: rgb(56, 83, 60);
+	opacity: 80%;
+	padding: 16px;
+	min-width: 75px;
+	min-height: 20px;
+	text-align: center;
+	color: rgb(252, 252, 252);
+	border: 2px rgb(3, 3, 3);
+
+
+
+
+}
+
+.footerMenu div{
+	
+}
+
